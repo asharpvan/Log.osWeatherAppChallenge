@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F418841A1CAE7F21005F562F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F41884191CAE7F21005F562F /* main.m */; };
+		F418841D1CAE7F21005F562F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F418841C1CAE7F21005F562F /* AppDelegate.m */; };
+		F41884201CAE7F21005F562F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F418841F1CAE7F21005F562F /* ViewController.m */; };
+		F41884251CAE7F21005F562F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41884241CAE7F21005F562F /* Assets.xcassets */; };
+		F41884351CAE8097005F562F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41884301CAE8097005F562F /* Default-568h@2x.png */; };
+		F41884361CAE8097005F562F /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41884311CAE8097005F562F /* Default-667h@2x.png */; };
+		F41884371CAE8097005F562F /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41884321CAE8097005F562F /* Default-736h@3x.png */; };
+		F41884381CAE8097005F562F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F41884331CAE8097005F562F /* Default.png */; };
+		F41884391CAE8098005F562F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41884341CAE8097005F562F /* Default@2x.png */; };
+		F47C8BCB1CE4FABC00B98C55 /* YahooWeatherClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C8BCA1CE4FABC00B98C55 /* YahooWeatherClient.m */; };
+		F47C8BCF1CE4FF8A00B98C55 /* CityDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C8BCE1CE4FF8A00B98C55 /* CityDataModel.m */; };
+		F47C8BD31CE500FA00B98C55 /* CurrentCoditionsDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C8BD21CE500FA00B98C55 /* CurrentCoditionsDataModel.m */; };
+		F47C8BD61CE5011100B98C55 /* ForecastConditionDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C8BD51CE5011100B98C55 /* ForecastConditionDataModel.m */; };
+		F47C8BDD1CE5150500B98C55 /* ForecastView.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C8BDC1CE5150500B98C55 /* ForecastView.m */; };
+		F47C8BE01CE5157A00B98C55 /* SlidingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C8BDF1CE5157A00B98C55 /* SlidingView.m */; };
+		F47C8BE31CE5179800B98C55 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C8BE21CE5179800B98C55 /* DetailedViewController.m */; };
+		F4F905271CE5DBCD00B23E6A /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F9050D1CE5DBCC00B23E6A /* Chameleon_.m */; };
+		F4F905281CE5DBCD00B23E6A /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F905101CE5DBCC00B23E6A /* ChameleonConstants.m */; };
+		F4F905291CE5DBCD00B23E6A /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F905141CE5DBCC00B23E6A /* NSArray+Chameleon.m */; };
+		F4F9052A1CE5DBCD00B23E6A /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F905161CE5DBCC00B23E6A /* UIAppearance+Swift.m */; };
+		F4F9052B1CE5DBCD00B23E6A /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F905181CE5DBCC00B23E6A /* UIButton+Chameleon.m */; };
+		F4F9052C1CE5DBCD00B23E6A /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F9051A1CE5DBCC00B23E6A /* UIColor+Chameleon.m */; };
+		F4F9052D1CE5DBCD00B23E6A /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F9051C1CE5DBCC00B23E6A /* UIColor+ChameleonPrivate.m */; };
+		F4F9052E1CE5DBCD00B23E6A /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F9051E1CE5DBCC00B23E6A /* UIImage+ChameleonPrivate.m */; };
+		F4F9052F1CE5DBCD00B23E6A /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F905201CE5DBCC00B23E6A /* UILabel+Chameleon.m */; };
+		F4F905301CE5DBCD00B23E6A /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F905221CE5DBCC00B23E6A /* UINavigationController+Chameleon.m */; };
+		F4F905311CE5DBCD00B23E6A /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F905241CE5DBCC00B23E6A /* UIView+ChameleonPrivate.m */; };
+		F4F905321CE5DBCD00B23E6A /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F905261CE5DBCC00B23E6A /* UIViewController+Chameleon.m */; };
+		F4F905341CE5DBE000B23E6A /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = F4F905331CE5DBE000B23E6A /* LICENSE.md */; };
+		F4F9053F1CE5E58200B23E6A /* humidity.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F905361CE5E58200B23E6A /* humidity.png */; };
+		F4F905401CE5E58200B23E6A /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F905371CE5E58200B23E6A /* location.png */; };
+		F4F905411CE5E58200B23E6A /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F905381CE5E58200B23E6A /* snow.png */; };
+		F4F905421CE5E58200B23E6A /* storm.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F905391CE5E58200B23E6A /* storm.png */; };
+		F4F905431CE5E58200B23E6A /* sunrise.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9053A1CE5E58200B23E6A /* sunrise.png */; };
+		F4F905441CE5E58200B23E6A /* sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9053B1CE5E58200B23E6A /* sunset.png */; };
+		F4F905451CE5E58200B23E6A /* temp.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9053C1CE5E58200B23E6A /* temp.png */; };
+		F4F905461CE5E58200B23E6A /* visibility.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9053D1CE5E58200B23E6A /* visibility.png */; };
+		F4F905471CE5E58200B23E6A /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9053E1CE5E58200B23E6A /* wind.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F41884151CAE7F21005F562F /* Boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41884191CAE7F21005F562F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F418841B1CAE7F21005F562F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F418841C1CAE7F21005F562F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F418841E1CAE7F21005F562F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F418841F1CAE7F21005F562F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F41884241CAE7F21005F562F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F41884291CAE7F21005F562F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41884301CAE8097005F562F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F41884311CAE8097005F562F /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		F41884321CAE8097005F562F /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		F41884331CAE8097005F562F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F41884341CAE8097005F562F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F47C8BC91CE4FABC00B98C55 /* YahooWeatherClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooWeatherClient.h; sourceTree = "<group>"; };
+		F47C8BCA1CE4FABC00B98C55 /* YahooWeatherClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooWeatherClient.m; sourceTree = "<group>"; };
+		F47C8BCD1CE4FF8A00B98C55 /* CityDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDataModel.h; sourceTree = "<group>"; };
+		F47C8BCE1CE4FF8A00B98C55 /* CityDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDataModel.m; sourceTree = "<group>"; };
+		F47C8BD11CE500FA00B98C55 /* CurrentCoditionsDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentCoditionsDataModel.h; sourceTree = "<group>"; };
+		F47C8BD21CE500FA00B98C55 /* CurrentCoditionsDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentCoditionsDataModel.m; sourceTree = "<group>"; };
+		F47C8BD41CE5011100B98C55 /* ForecastConditionDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastConditionDataModel.h; sourceTree = "<group>"; };
+		F47C8BD51CE5011100B98C55 /* ForecastConditionDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastConditionDataModel.m; sourceTree = "<group>"; };
+		F47C8BDB1CE5150500B98C55 /* ForecastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastView.h; sourceTree = "<group>"; };
+		F47C8BDC1CE5150500B98C55 /* ForecastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastView.m; sourceTree = "<group>"; };
+		F47C8BDE1CE5157A00B98C55 /* SlidingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingView.h; sourceTree = "<group>"; };
+		F47C8BDF1CE5157A00B98C55 /* SlidingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingView.m; sourceTree = "<group>"; };
+		F47C8BE11CE5179800B98C55 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		F47C8BE21CE5179800B98C55 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		F4F9050C1CE5DBCC00B23E6A /* Chameleon_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon_.h; sourceTree = "<group>"; };
+		F4F9050D1CE5DBCC00B23E6A /* Chameleon_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chameleon_.m; sourceTree = "<group>"; };
+		F4F9050E1CE5DBCC00B23E6A /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		F4F9050F1CE5DBCC00B23E6A /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonConstants.h; sourceTree = "<group>"; };
+		F4F905101CE5DBCC00B23E6A /* ChameleonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonConstants.m; sourceTree = "<group>"; };
+		F4F905111CE5DBCC00B23E6A /* ChameleonEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonEnums.h; sourceTree = "<group>"; };
+		F4F905121CE5DBCC00B23E6A /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		F4F905131CE5DBCC00B23E6A /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		F4F905141CE5DBCC00B23E6A /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		F4F905151CE5DBCC00B23E6A /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		F4F905161CE5DBCC00B23E6A /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		F4F905171CE5DBCC00B23E6A /* UIButton+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		F4F905181CE5DBCC00B23E6A /* UIButton+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		F4F905191CE5DBCC00B23E6A /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		F4F9051A1CE5DBCC00B23E6A /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		F4F9051B1CE5DBCC00B23E6A /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		F4F9051C1CE5DBCC00B23E6A /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		F4F9051D1CE5DBCC00B23E6A /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		F4F9051E1CE5DBCC00B23E6A /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		F4F9051F1CE5DBCC00B23E6A /* UILabel+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		F4F905201CE5DBCC00B23E6A /* UILabel+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		F4F905211CE5DBCC00B23E6A /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		F4F905221CE5DBCC00B23E6A /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		F4F905231CE5DBCC00B23E6A /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		F4F905241CE5DBCC00B23E6A /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		F4F905251CE5DBCC00B23E6A /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		F4F905261CE5DBCC00B23E6A /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		F4F905331CE5DBE000B23E6A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		F4F905361CE5E58200B23E6A /* humidity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humidity.png; sourceTree = "<group>"; };
+		F4F905371CE5E58200B23E6A /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		F4F905381CE5E58200B23E6A /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		F4F905391CE5E58200B23E6A /* storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storm.png; sourceTree = "<group>"; };
+		F4F9053A1CE5E58200B23E6A /* sunrise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise.png; sourceTree = "<group>"; };
+		F4F9053B1CE5E58200B23E6A /* sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunset.png; sourceTree = "<group>"; };
+		F4F9053C1CE5E58200B23E6A /* temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp.png; sourceTree = "<group>"; };
+		F4F9053D1CE5E58200B23E6A /* visibility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visibility.png; sourceTree = "<group>"; };
+		F4F9053E1CE5E58200B23E6A /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F41884121CAE7F21005F562F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F418840C1CAE7F20005F562F = {
+			isa = PBXGroup;
+			children = (
+				F41884171CAE7F21005F562F /* Boilerplate */,
+				F41884161CAE7F21005F562F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F41884161CAE7F21005F562F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41884151CAE7F21005F562F /* Boilerplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41884171CAE7F21005F562F /* Boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				F418841B1CAE7F21005F562F /* AppDelegate.h */,
+				F418841C1CAE7F21005F562F /* AppDelegate.m */,
+				F418841E1CAE7F21005F562F /* ViewController.h */,
+				F418841F1CAE7F21005F562F /* ViewController.m */,
+				F47C8BE11CE5179800B98C55 /* DetailedViewController.h */,
+				F47C8BE21CE5179800B98C55 /* DetailedViewController.m */,
+				F41884401CAE93EA005F562F /* Custom Classes */,
+				F418843A1CAE8367005F562F /* Third Party */,
+				F418842F1CAE807D005F562F /* Assets */,
+				F41884241CAE7F21005F562F /* Assets.xcassets */,
+				F41884291CAE7F21005F562F /* Info.plist */,
+				F41884181CAE7F21005F562F /* Supporting Files */,
+			);
+			path = Boilerplate;
+			sourceTree = "<group>";
+		};
+		F41884181CAE7F21005F562F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F41884191CAE7F21005F562F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F418842F1CAE807D005F562F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F4F905361CE5E58200B23E6A /* humidity.png */,
+				F4F905371CE5E58200B23E6A /* location.png */,
+				F4F905381CE5E58200B23E6A /* snow.png */,
+				F4F905391CE5E58200B23E6A /* storm.png */,
+				F4F9053A1CE5E58200B23E6A /* sunrise.png */,
+				F4F9053B1CE5E58200B23E6A /* sunset.png */,
+				F4F9053C1CE5E58200B23E6A /* temp.png */,
+				F4F9053D1CE5E58200B23E6A /* visibility.png */,
+				F4F9053E1CE5E58200B23E6A /* wind.png */,
+				F41884301CAE8097005F562F /* Default-568h@2x.png */,
+				F41884311CAE8097005F562F /* Default-667h@2x.png */,
+				F41884321CAE8097005F562F /* Default-736h@3x.png */,
+				F41884331CAE8097005F562F /* Default.png */,
+				F41884341CAE8097005F562F /* Default@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F418843A1CAE8367005F562F /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				F4F905351CE5DBE800B23E6A /* Chameleon */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		F41884401CAE93EA005F562F /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F47C8BDA1CE514D700B98C55 /* Custom View */,
+				F47C8BCC1CE4FF6300B98C55 /* API Client */,
+				F47C8BD91CE5014300B98C55 /* Data Models */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		F47C8BCC1CE4FF6300B98C55 /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				F47C8BC91CE4FABC00B98C55 /* YahooWeatherClient.h */,
+				F47C8BCA1CE4FABC00B98C55 /* YahooWeatherClient.m */,
+			);
+			name = "API Client";
+			sourceTree = "<group>";
+		};
+		F47C8BD01CE5006800B98C55 /* City DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F47C8BCD1CE4FF8A00B98C55 /* CityDataModel.h */,
+				F47C8BCE1CE4FF8A00B98C55 /* CityDataModel.m */,
+			);
+			name = "City DataModel";
+			sourceTree = "<group>";
+		};
+		F47C8BD71CE5011800B98C55 /* Current Conditions Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F47C8BD11CE500FA00B98C55 /* CurrentCoditionsDataModel.h */,
+				F47C8BD21CE500FA00B98C55 /* CurrentCoditionsDataModel.m */,
+			);
+			name = "Current Conditions Data Model";
+			sourceTree = "<group>";
+		};
+		F47C8BD81CE5012800B98C55 /* Forecast Condition Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F47C8BD41CE5011100B98C55 /* ForecastConditionDataModel.h */,
+				F47C8BD51CE5011100B98C55 /* ForecastConditionDataModel.m */,
+			);
+			name = "Forecast Condition Data Model";
+			sourceTree = "<group>";
+		};
+		F47C8BD91CE5014300B98C55 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				F47C8BD01CE5006800B98C55 /* City DataModel */,
+				F47C8BD71CE5011800B98C55 /* Current Conditions Data Model */,
+				F47C8BD81CE5012800B98C55 /* Forecast Condition Data Model */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		F47C8BDA1CE514D700B98C55 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				F47C8BDE1CE5157A00B98C55 /* SlidingView.h */,
+				F47C8BDF1CE5157A00B98C55 /* SlidingView.m */,
+				F47C8BDB1CE5150500B98C55 /* ForecastView.h */,
+				F47C8BDC1CE5150500B98C55 /* ForecastView.m */,
+			);
+			name = "Custom View";
+			sourceTree = "<group>";
+		};
+		F4F905351CE5DBE800B23E6A /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				F4F905331CE5DBE000B23E6A /* LICENSE.md */,
+				F4F9050C1CE5DBCC00B23E6A /* Chameleon_.h */,
+				F4F9050D1CE5DBCC00B23E6A /* Chameleon_.m */,
+				F4F9050E1CE5DBCC00B23E6A /* Chameleon.h */,
+				F4F9050F1CE5DBCC00B23E6A /* ChameleonConstants.h */,
+				F4F905101CE5DBCC00B23E6A /* ChameleonConstants.m */,
+				F4F905111CE5DBCC00B23E6A /* ChameleonEnums.h */,
+				F4F905121CE5DBCC00B23E6A /* ChameleonMacros.h */,
+				F4F905131CE5DBCC00B23E6A /* NSArray+Chameleon.h */,
+				F4F905141CE5DBCC00B23E6A /* NSArray+Chameleon.m */,
+				F4F905151CE5DBCC00B23E6A /* UIAppearance+Swift.h */,
+				F4F905161CE5DBCC00B23E6A /* UIAppearance+Swift.m */,
+				F4F905171CE5DBCC00B23E6A /* UIButton+Chameleon.h */,
+				F4F905181CE5DBCC00B23E6A /* UIButton+Chameleon.m */,
+				F4F905191CE5DBCC00B23E6A /* UIColor+Chameleon.h */,
+				F4F9051A1CE5DBCC00B23E6A /* UIColor+Chameleon.m */,
+				F4F9051B1CE5DBCC00B23E6A /* UIColor+ChameleonPrivate.h */,
+				F4F9051C1CE5DBCC00B23E6A /* UIColor+ChameleonPrivate.m */,
+				F4F9051D1CE5DBCC00B23E6A /* UIImage+ChameleonPrivate.h */,
+				F4F9051E1CE5DBCC00B23E6A /* UIImage+ChameleonPrivate.m */,
+				F4F9051F1CE5DBCC00B23E6A /* UILabel+Chameleon.h */,
+				F4F905201CE5DBCC00B23E6A /* UILabel+Chameleon.m */,
+				F4F905211CE5DBCC00B23E6A /* UINavigationController+Chameleon.h */,
+				F4F905221CE5DBCC00B23E6A /* UINavigationController+Chameleon.m */,
+				F4F905231CE5DBCC00B23E6A /* UIView+ChameleonPrivate.h */,
+				F4F905241CE5DBCC00B23E6A /* UIView+ChameleonPrivate.m */,
+				F4F905251CE5DBCC00B23E6A /* UIViewController+Chameleon.h */,
+				F4F905261CE5DBCC00B23E6A /* UIViewController+Chameleon.m */,
+			);
+			name = Chameleon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F41884141CAE7F21005F562F /* Boilerplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F418842C1CAE7F21005F562F /* Build configuration list for PBXNativeTarget "Boilerplate" */;
+			buildPhases = (
+				F41884111CAE7F21005F562F /* Sources */,
+				F41884121CAE7F21005F562F /* Frameworks */,
+				F41884131CAE7F21005F562F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boilerplate;
+			productName = Boilerplate;
+			productReference = F41884151CAE7F21005F562F /* Boilerplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F418840D1CAE7F20005F562F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Agatsa;
+				TargetAttributes = {
+					F41884141CAE7F21005F562F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F41884101CAE7F20005F562F /* Build configuration list for PBXProject "Boilerplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F418840C1CAE7F20005F562F;
+			productRefGroup = F41884161CAE7F21005F562F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41884141CAE7F21005F562F /* Boilerplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F41884131CAE7F21005F562F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F905431CE5E58200B23E6A /* sunrise.png in Resources */,
+				F4F905401CE5E58200B23E6A /* location.png in Resources */,
+				F4F905421CE5E58200B23E6A /* storm.png in Resources */,
+				F41884391CAE8098005F562F /* Default@2x.png in Resources */,
+				F4F905411CE5E58200B23E6A /* snow.png in Resources */,
+				F4F9053F1CE5E58200B23E6A /* humidity.png in Resources */,
+				F41884251CAE7F21005F562F /* Assets.xcassets in Resources */,
+				F4F905441CE5E58200B23E6A /* sunset.png in Resources */,
+				F41884361CAE8097005F562F /* Default-667h@2x.png in Resources */,
+				F41884351CAE8097005F562F /* Default-568h@2x.png in Resources */,
+				F4F905451CE5E58200B23E6A /* temp.png in Resources */,
+				F4F905471CE5E58200B23E6A /* wind.png in Resources */,
+				F4F905461CE5E58200B23E6A /* visibility.png in Resources */,
+				F41884371CAE8097005F562F /* Default-736h@3x.png in Resources */,
+				F41884381CAE8097005F562F /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F41884111CAE7F21005F562F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F905281CE5DBCD00B23E6A /* ChameleonConstants.m in Sources */,
+				F47C8BD31CE500FA00B98C55 /* CurrentCoditionsDataModel.m in Sources */,
+				F4F905301CE5DBCD00B23E6A /* UINavigationController+Chameleon.m in Sources */,
+				F4F9052E1CE5DBCD00B23E6A /* UIImage+ChameleonPrivate.m in Sources */,
+				F4F9052C1CE5DBCD00B23E6A /* UIColor+Chameleon.m in Sources */,
+				F41884201CAE7F21005F562F /* ViewController.m in Sources */,
+				F4F9052A1CE5DBCD00B23E6A /* UIAppearance+Swift.m in Sources */,
+				F4F9052B1CE5DBCD00B23E6A /* UIButton+Chameleon.m in Sources */,
+				F4F905311CE5DBCD00B23E6A /* UIView+ChameleonPrivate.m in Sources */,
+				F418841D1CAE7F21005F562F /* AppDelegate.m in Sources */,
+				F4F905291CE5DBCD00B23E6A /* NSArray+Chameleon.m in Sources */,
+				F47C8BDD1CE5150500B98C55 /* ForecastView.m in Sources */,
+				F47C8BE31CE5179800B98C55 /* DetailedViewController.m in Sources */,
+				F4F905341CE5DBE000B23E6A /* LICENSE.md in Sources */,
+				F4F905271CE5DBCD00B23E6A /* Chameleon_.m in Sources */,
+				F4F9052F1CE5DBCD00B23E6A /* UILabel+Chameleon.m in Sources */,
+				F47C8BCF1CE4FF8A00B98C55 /* CityDataModel.m in Sources */,
+				F47C8BE01CE5157A00B98C55 /* SlidingView.m in Sources */,
+				F4F905321CE5DBCD00B23E6A /* UIViewController+Chameleon.m in Sources */,
+				F47C8BD61CE5011100B98C55 /* ForecastConditionDataModel.m in Sources */,
+				F47C8BCB1CE4FABC00B98C55 /* YahooWeatherClient.m in Sources */,
+				F418841A1CAE7F21005F562F /* main.m in Sources */,
+				F4F9052D1CE5DBCD00B23E6A /* UIColor+ChameleonPrivate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F418842A1CAE7F21005F562F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F418842B1CAE7F21005F562F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F418842D1CAE7F21005F562F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Boilerplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agatsa.app.Boilerplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F418842E1CAE7F21005F562F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Boilerplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agatsa.app.Boilerplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F41884101CAE7F20005F562F /* Build configuration list for PBXProject "Boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F418842A1CAE7F21005F562F /* Debug */,
+				F418842B1CAE7F21005F562F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F418842C1CAE7F21005F562F /* Build configuration list for PBXNativeTarget "Boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F418842D1CAE7F21005F562F /* Debug */,
+				F418842E1CAE7F21005F562F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F418840D1CAE7F20005F562F /* Project object */;
+}
